@@ -23,10 +23,6 @@ Add to your `wally.toml`:
 network = "voxovistired/network@1.2.0"
 ```
 
-### Rojo
-
-Clone the repository and sync the `src` directory into your project via your `*.project.json`.
-
 ## Usage
 
 ### Server
@@ -165,6 +161,6 @@ Supported types: `string`, `number`, `boolean`, `Vector3`, `Vector2`, `Vector3in
 Contributions are welcome. Please ensure your code passes linting and formatting before submitting a PR:
 
 ```bash
-selene ./modules
-stylua ./modules
+selene ./src
+stylua ./src
 ```
