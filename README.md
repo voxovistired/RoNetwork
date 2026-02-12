@@ -4,13 +4,13 @@ Single-remote multiplexed networking for Roblox with built-in compression, schem
 
 ## Features
 
-- **Single-remote multiplexing** — all communication routes through one RemoteEvent, RemoteFunction, UnreliableRemoteEvent, and BindableEvent
-- **Argument compression** — automatic serialization/deserialization via buffer-based compression
-- **Schema validation** — validate incoming arguments on the server with type-checked schemas
-- **Rate limiting** — built-in token-bucket rate limiting per connection
-- **Connection registry** — frequently used connection names are encoded as numeric IDs to save bandwidth
-- **Clean API** — `Network.Server` and `Network.Client` with intuitive methods like `:On`, `:Fire`, `:Invoke`, and `:Dispatch`
-- **Backward compatible** — legacy API (`SetConnection`, `FireClientConnection`, etc.) is fully preserved
+- **Single-remote multiplexing** → all communication routes through one RemoteEvent, RemoteFunction, UnreliableRemoteEvent, and BindableEvent
+- **Argument compression** → automatic serialization/deserialization via buffer-based compression
+- **Schema validation** → validate incoming arguments on the server with type-checked schemas
+- **Rate limiting** → built-in token-bucket rate limiting per connection
+- **Connection registry** → frequently used connection names are encoded as numeric IDs to save bandwidth
+- **Clean API** → `Network.Server` and `Network.Client` with intuitive methods like `:On`, `:Fire`, `:Invoke`, and `:Dispatch`
+- **Backward compatible** → legacy API (`SetConnection`, `FireClientConnection`, etc.) is fully preserved
 
 ## Installation
 
