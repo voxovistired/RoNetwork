@@ -1,10 +1,11 @@
 [package]
 name = "voxovistired/network"
 description = "Single-remote multiplexed networking for Roblox with built-in compression, validation, and rate limiting."
-version = "1.2.0"
+version = "1.2.1"
 license = "MIT"
 authors = ["Erin R"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+include = ["src", "default.project.json", "LICENSE"]    
 
 [dependencies]
