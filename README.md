@@ -20,7 +20,7 @@ Add to your `wally.toml`:
 
 ```toml
 [dependencies]
-Network = "your-scope/network@0.1.0"
+network = "voxovistired/network@1.2.0"
 ```
 
 ### Rojo
