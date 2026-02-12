@@ -1,0 +1,5 @@
+std = "roblox"
+exclude = ["*.spec.luau"]
+
+[lints]
+parenthese_conditions = "allow"
